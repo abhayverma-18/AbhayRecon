@@ -1,4 +1,4 @@
-cat << 'EOF' > ~/AbhayRecon/README.md
+
 # 🔍 AbhayRecon - Multi-Vector Passive Attack Surface Engine
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
