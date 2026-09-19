@@ -1,0 +1,67 @@
+{
+    "target": "nmap.org",
+    "dns_intelligence": {
+        "A": [
+            "50.116.1.184"
+        ],
+        "MX": [
+            "ALT1.ASPMX.L.GOOGLE.COM",
+            "ALT2.ASPMX.L.GOOGLE.COM",
+            "ASPMX.L.GOOGLE.COM",
+            "ASPMX3.GOOGLEMAIL.COM",
+            "ASPMX2.GOOGLEMAIL.COM"
+        ],
+        "TXT": [
+            "v=spf1 a mx ptr ip4:50.116.1.184 ip6:2600:3c01::f03c:91ff:fe98:ff4e ip6:2600:3c01:e000:3e6::6d4e:7061 include:_spf.google.com ~all",
+            "google-site-verification=SrtYpJGxZzMTcczZG44XtLVK-sEPit9bputDjWc0lF4"
+        ],
+        "reverse_dns": {
+            "50.116.1.184": "ack.nmap.org"
+        }
+    },
+    "geo_ip_footprint": {
+        "ip": "50.116.1.184",
+        "country": "United States",
+        "city": "Fremont, California",
+        "isp": "Akamai Technologies, Inc.",
+        "organization": "Linode",
+        "asn": "AS63949 Akamai Connected Cloud"
+    },
+    "subdomain_intelligence": {
+        "total": 5,
+        "live": [
+            "issues.nmap.org",
+            "nmap.org",
+            "svn.nmap.org",
+            "www.nmap.org"
+        ]
+    },
+    "security_posture": {
+        "score": 25,
+        "headers": {
+            "Strict-Transport-Security": {
+                "status": "Present",
+                "value": "max-age=31536000; preload"
+            },
+            "Content-Security-Policy": {
+                "status": "Missing",
+                "value": null
+            },
+            "X-Frame-Options": {
+                "status": "Missing",
+                "value": null
+            },
+            "X-Content-Type-Options": {
+                "status": "Missing",
+                "value": null
+            },
+            "Referrer-Policy": {
+                "status": "Missing",
+                "value": null
+            }
+        },
+        "tech_fingerprint": {
+            "Server": "Apache/2.4.6 (CentOS)"
+        }
+    }
+}
